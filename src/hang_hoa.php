@@ -79,7 +79,7 @@ class hang_hoa
 			$this->errors['hinh'] = 'Hình ảnh không hợp lệ.';
 		}
 		if (!$this->so_luong_hang) {
-			$this->errors['so_luong_hang'] = 'Số lượng không hôp lệ.';
+			$this->errors['so_luong_hang'] = 'Số lượng không hợp lệ.';
 		} elseif (($this->so_luong_hang) < 0 || ($this->so_luong_hang) > 1000) {
 			$this->errors['so_luong_hang'] = 'Số lượng không được phép nhỏ hơn 0 và lớn hơn 500.';
 		}
