@@ -1,5 +1,5 @@
 <?php
-include '../admin/partials/header.php';
+include '../admin/partials/header2.php';
 require_once '../bootstrap.php';
 ?>
 

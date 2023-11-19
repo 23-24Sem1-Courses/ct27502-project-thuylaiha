@@ -110,7 +110,7 @@
         function redirectToHome() {
             // Thực hiện các xác nhận đăng nhập ở đây nếu cần
             // Sau khi xác nhận đăng nhập thành công, chuyển hướng trang đến trang chủ
-            window.location.href = "index.php";
+            window.location.href = "admin.php";
             return false; // Ngăn form submit
         }
     </script>

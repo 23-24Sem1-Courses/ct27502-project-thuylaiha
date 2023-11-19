@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) { // neu trang thai chua duoc bat
 // require_once '../bootstrap.php';
 
 use CT275\Labs\khach_hang;
-include '../partials/header.php';
+include '../admin/partials/header2.php';
 $errors = [];
 $dangky=false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -41,5 +41,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	</section>
 </main>
 
-<?php include('../partials/footer.php') ?>
+<?php include('../admin/partials/footer.php') ?>
 

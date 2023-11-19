@@ -1,6 +1,6 @@
 <?php
 
-include '../admin/partials/header.php';
+include '../admin/partials/header3.php';
 use CT275\Labs\hang_hoa;
 
 $hang_hoa = new hang_hoa($PDO); // khoi tao de sd cac ham
@@ -52,11 +52,15 @@ if (session_status() === PHP_SESSION_NONE) { // neu trang thai chua duoc bat
                                
                                <td><?php
                                    if ($hang_hoa->id_loai == 1) {
-                                       echo ("Laptop");
+                                       echo ("Giày của nữ");
                                    } if ($hang_hoa->id_loai == 2) {
-                                       echo ("SamSung");
-                                   } else if ($hang_hoa->id_loai == 3) {
-                                       echo ("Iphone");
+                                       echo ("Giày của nam");
+                                    } if ($hang_hoa->id_loai == 3) {
+                                        echo ("Giày trẻ em");
+                                    } if ($hang_hoa->id_loai == 4) {
+                                        echo ("Phụ kiện giày");
+                                   } else if ($hang_hoa->id_loai == 5) {
+                                       echo ("Bán chạy");
                                    }
                                    ?></td>
                               

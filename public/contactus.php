@@ -44,7 +44,9 @@ include('../admin/partials/header.php');
                             <label for="message">Message:</label>
                             <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
                         </div>
+                        <div class="text-center">
                         <button type="submit" class="btn btn-primary">Submit</button>
+</div>
                     </form>
                 </div>
             </div>

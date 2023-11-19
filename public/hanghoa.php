@@ -1,5 +1,5 @@
 <?php 
-include "../admin/partials/header.php";
+include "../admin/partials/header2.php";
 
 use CT275\Labs\hang_hoa;
 use CT275\Labs\loai_hang_hoa;

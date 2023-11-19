@@ -60,7 +60,7 @@ if(isset($_SESSION['carts'])){
 </head>
     <body>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #add8e6; color: #000;">
-<a href="index.php" class="navbar-brand ml-4"><img src="../public/assets/icon.png" alt="Logo" class="logo-icon">H<b>L</b>T<b>L</b></a>
+<a href="index.php" class="navbar-brand ml-4"><img src="../public/assets/icon.png" alt="Logo" class="logo-icon">HLTL</a>
 <style>.logo-icon{width:30px;height:auto;margin-right:10px;}</style>  		
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 		<span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@ if(isset($_SESSION['carts'])){
 	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
 		<div class="navbar-nav">
 			<a href="index.php" class="nav-item nav-link font-weight-bold">Trang chủ</a>
-			<a href="news.php" class="nav-item nav-link font-weight-bold">Về chúng tôi</a>	
+			<a href="news.php" class="nav-item nav-link font-weight-bold">Tin tức</a>	
 					
 			<div class="nav-item dropdown">
 				<a href="hanghoa.php" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle font-weight-bold">Danh mục hàng</a>
@@ -109,7 +109,7 @@ if(isset($_SESSION['carts'])){
 	<?php if (!isset($_SESSION['ten'])): ?>
 			<div class="nav-item dropdown">
                 
-						<a href="dangnhap.php" class="btn btn-outline-dark mt-auto">Đăng nhập</a>
+						<a href="dangnhap.php" class="btn btn-outline-dark mt-auto">Xin chào, thuylaiha!</a>
 						
 						</div>
 					</form>
@@ -117,9 +117,10 @@ if(isset($_SESSION['carts'])){
 			</div>
 			</div>
 			<div class="nav-item dropdown">
-			<a href="dangkytk.php" class="btn btn-outline-dark mt-auto">Đăng ký</a>
+			<a href="dangxuat.php" class="btn btn-outline-dark mt-auto">Đăng xuất</a>
                
 			</div>
+			
 			<?php endif ?>
 			<?php if (isset($_SESSION['ten'])) : ?>
 				<form class="nav-form form-inline mr-4" action="<?= BASE_URL_PATH . 'dangxuat.php' ?>" method="post">

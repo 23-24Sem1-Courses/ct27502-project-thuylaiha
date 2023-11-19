@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include('../admin/partials/header.php'); ?>
+<?php include('../admin/partials/header2.php'); ?>
 <head>
     <meta charset="UTF-8">
     <title>Chi Tiết Sản Phẩm</title>
@@ -132,10 +132,7 @@
 
                        
 
-    <?php
-    // Include footer and necessary JavaScript files
-    include('../admin/partials/footer.php');
-    ?>
+   
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS -->

@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
   }
 }
-include '../partials/header.php';
+include '../admin/partials/header2.php';
 ?>
 <main>
   <section>
@@ -33,7 +33,7 @@ include '../partials/header.php';
         <h1>
           <p> Bạn đã đăng xuất thành công</p>
         </h1>
-        <a href="index.php"> <button class="btn btn-primary">Đi đến trang chủ</button></a>
+        <a href="trangdangnhap.php"> <button class="btn btn-primary">Đi đến trang chủ</button></a>
         <a href="sanpham.php"> <button class="btn btn-primary">Đi đến trang sản phẩm</button></a>
 
       </div>
@@ -43,4 +43,4 @@ include '../partials/header.php';
   </section>
 </main>
 
-<?php include('../partials/footer.php') ?>
+<?php include('../admin/partials/footer.php') ?>

@@ -1,30 +1,30 @@
 <footer>
-	<section class="text-center container mt-3" style="background-color: #add8e6; color: #000;">
+<section class="text-center container mt-3">
 		<div class="row row-cols-2 row-cols-sm-2 row-cols-md-3">
 			<div class="col">
-				<div class="mb-3"> <i class="text-white bg-dark border  rounded-circle p-3 fa-solid fa-truck"  ></i>
+				<div class="mb-3"> <i class="text-white bg-black border  rounded-circle p-3 fa-solid fa-truck"></i>
 				</div>
 				<h5>MIỄN PHÍ GIAO HÀNG</h5>
 				<p>Miễn Phí Giao Hàng Với Hoá Đơn Trên 500.000đ
 				</p>
 			</div>
 			<div class="col">
-				<div class="mb-3"><i class=" text-white bg-dark border  rounded-circle p-3 fa-solid fa-screwdriver-wrench"></i>
+				<div class="mb-3"><i class=" text-white bg-black border  rounded-circle p-3 fa-solid fa-screwdriver-wrench"></i>
 				</div>
 				<h5>BẢO HÀNH 1 NĂM</h5>
 				<p>Hỗ trợ bảo hành sửa chửa 1 năm miễn phí</p>
 			</div>
 			<div class="col">
-				<div class="mb-3"><i class=" text-white bg-dark border  rounded-circle p-3 fa-solid fa-shop"></i>
+				<div class="mb-3"><i class=" text-white bg-black border  rounded-circle p-3 fa-solid fa-shop"></i>
 				</div>
-				<h5>Đến với chúng tôi tại</h5>
-				<p>Địa Chỉ: H151 Ninh Kiều TP Cần Thơ</p>
+				<h5>CỬA HÀNG</h5>
+				<p>Địa Chỉ: 151H Ninh Kiều Cần Thơ</p>
 			</div>
-
 
 		</div>
 	</section>
-	<section class="bg-light text-white" style="background-color: #add8e6; color: #000;">
+	<section  style="background-color: #add8e6; color: #000;"
+>
 		<div class="container py-3">
 			<div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
 				<div class="col">
@@ -47,7 +47,7 @@
 
 				</div>
 				<div class="col">
-					<h5>Shop Giày</h5>
+					<h5>Shop Phone</h5>
 					<a href="">
 						<p>Tin tức</p>
 					</a>
@@ -62,22 +62,22 @@
 					<h5>TỔNG TÀI HỖ TRỢ</h5>
 					<a href="">
 						<p>Gọi mua: 
-							<span>1800.1090</span>
+							<span>1800.1000</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Kỹ thuật: 
-							<span>1800.1080</span>
+							<span>1800.1111</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Bảo hành: 
-							<span>1800.1070</span>
+							<span>1800.1222</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Khiếu nại: 
-							<span>1800.1060</span>
+							<span>1800.1333</span>
 						</p>
 					</a>
 					
@@ -116,7 +116,8 @@
 
 			</div>
 	</section>
-	<section class="bg-light text-white" style="background-color: #add8e6; color: #000;">
+	<section style="background-color: #add8e6; color: #000;"
+>
 		<div class="container  py-3">
 			<div class="row row-cols-1 row-cols-sm-2">
 				<div class="col">

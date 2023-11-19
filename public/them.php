@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	}
 	$errors = $hang_hoa->getValidationErrors();
 }
-include '../admin/partials/header.php';
+include '../admin/partials/header3.php';
 ?>
 <main class="container">
 	<section class="nav--product row ">
