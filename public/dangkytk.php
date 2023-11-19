@@ -13,7 +13,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header">
-                    <h2 class="text-center">Registration Form</h2>
+                    <h2 class="text-center">Đăng Ký Tài Khoản</h2>
                 </div>
                 <div class="card-body">
                     <form method="post" action="dangky.php">
