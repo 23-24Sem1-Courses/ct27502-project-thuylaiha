@@ -1,0 +1,7 @@
+.text-dark{
+  text-decoration: none;
+}
+.banner {
+  height: 1500px; /* Điều chỉnh chiều cao theo mong muốn */
+  overflow: hidden; /* Để giữ ảnh không bị tràn ra khỏi div */
+}

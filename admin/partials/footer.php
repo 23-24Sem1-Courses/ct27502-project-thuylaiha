@@ -1,30 +1,30 @@
 <footer>
-	<section class="text-center container mt-3">
+	<section class="text-center container mt-3" style="background-color: #add8e6; color: #000;">
 		<div class="row row-cols-2 row-cols-sm-2 row-cols-md-3">
 			<div class="col">
-				<div class="mb-3"> <i class="text-white bg-black border  rounded-circle p-3 fa-solid fa-truck"></i>
+				<div class="mb-3"> <i class="text-white bg-dark border  rounded-circle p-3 fa-solid fa-truck"  ></i>
 				</div>
 				<h5>MIỄN PHÍ GIAO HÀNG</h5>
 				<p>Miễn Phí Giao Hàng Với Hoá Đơn Trên 500.000đ
 				</p>
 			</div>
 			<div class="col">
-				<div class="mb-3"><i class=" text-white bg-black border  rounded-circle p-3 fa-solid fa-screwdriver-wrench"></i>
+				<div class="mb-3"><i class=" text-white bg-dark border  rounded-circle p-3 fa-solid fa-screwdriver-wrench"></i>
 				</div>
 				<h5>BẢO HÀNH 1 NĂM</h5>
-				<p>Hỗ trợ bảo hành sửa chửa miễn phí trong vòng 1 tháng</p>
+				<p>Hỗ trợ bảo hành sửa chửa 1 năm miễn phí</p>
 			</div>
 			<div class="col">
-				<div class="mb-3"><i class=" text-white bg-black border  rounded-circle p-3 fa-solid fa-shop"></i>
+				<div class="mb-3"><i class=" text-white bg-dark border  rounded-circle p-3 fa-solid fa-shop"></i>
 				</div>
-				<h5>Địa chỉ cửa hàng</h5>
-				<p>Địa Chỉ: Hòa Hưng  Quận 10 TP HCM</p>
+				<h5>Đến với chúng tôi tại</h5>
+				<p>Địa Chỉ: H151 Ninh Kiều TP Cần Thơ</p>
 			</div>
 
 
 		</div>
 	</section>
-	<section class="bg-black text-white">
+	<section class="bg-light text-white" style="background-color: #add8e6; color: #000;">
 		<div class="container py-3">
 			<div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
 				<div class="col">
@@ -47,7 +47,7 @@
 
 				</div>
 				<div class="col">
-					<h5>HTLT</h5>
+					<h5>Shop Giày</h5>
 					<a href="">
 						<p>Tin tức</p>
 					</a>
@@ -59,25 +59,25 @@
 					</a>
 				</div>	
 				<div class="col">
-					<h5>TỔNG ĐÀI HỖ TRỢ KHÁCH HÀNG</h5>
+					<h5>TỔNG TÀI HỖ TRỢ</h5>
 					<a href="">
 						<p>Gọi mua: 
-							<span>1800.0000</span>
+							<span>1800.1090</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Kỹ thuật: 
-							<span>1800.1111</span>
+							<span>1800.1080</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Bảo hành: 
-							<span>1800.2222</span>
+							<span>1800.1070</span>
 						</p>
 					</a>
 					<a href="">
 						<p>Khiếu nại: 
-							<span>1800.3333</span>
+							<span>1800.1060</span>
 						</p>
 					</a>
 					
@@ -85,6 +85,9 @@
 				</div>
 				<div class="col">
 					<h5>KHÁC</h5>
+					<a href="">
+						<p>Tìm một cửa hàng</p>
+					</a>
 					<a href="">
 						<p>Trở thành một thành viên</p>
 					</a>
@@ -113,18 +116,23 @@
 
 			</div>
 	</section>
-	
-	<!-- Trong tệp footer.php -->
-<footer class="py-4" style="background-color:  #87CEEB; color: white;">
-    <div class="container text-center">
-        <p>&copy; 2023 Tên Cửa Hàng. All rights reserved.</p>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#" style="color: white;">Home</a></li>
-            <li class="list-inline-item"><a href="#" style="color: white;">Products</a></li>
-            <li class="list-inline-item"><a href="#" style="color: white;">Contact</a></li>
-        </ul>
-    </div>
+	<section class="bg-light text-white" style="background-color: #add8e6; color: #000;">
+		<div class="container  py-3">
+			<div class="row row-cols-1 row-cols-sm-2">
+				<div class="col">
+					<p> <i class="fa-sharp fa-solid fa-location-dot"></i> Vietnam <i class="fa-regular fa-copyright"></i>
+						2023 Nike, Inc. All Rights Reserved</p>
+				</div>
+				<div class="col">
+					<p><a href=""><span>Hướng dẫn</span></a> <a href=""><span>Điều khoản sử
+								dụng</span></a> <a href=""><span>Điều khoản bán hàng</span></a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 </footer>
+
 
 </body>
 

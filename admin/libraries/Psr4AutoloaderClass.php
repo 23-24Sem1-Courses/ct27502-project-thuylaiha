@@ -1,5 +1,12 @@
 <?php
+// Tạo một đối tượng autoloader
+$autoloader = new Psr4AutoloaderClass();
 
+// Đăng ký các namespace và thư mục cơ sở
+$autoloader->addNamespace('../header.php', 'ct275002-project-thuylaiha/admin/partials/header.php');
+
+// Đăng ký autoloader với SPL autoloader stack
+$autoloader->register();
 class Psr4AutoloaderClass
 {
 	/**

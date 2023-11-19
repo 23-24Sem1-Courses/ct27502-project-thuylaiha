@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	// Cập nhật dữ liệu không thành công
 	$errors = $hang_hoa->getValidationErrors();
 }
-include '../partials/header.php';
+include '../admin/partials/header.php';
 ?>
 <main class="container">
 	<section class="nav--product row ">

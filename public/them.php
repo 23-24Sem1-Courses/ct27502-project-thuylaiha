@@ -1,16 +1,13 @@
 <?php
-require_once '../bootstrap.php';
+require_once '../bootstrap.php'; // tu dong nap lop,khong gian ten,dbconnect
 if (session_status() === PHP_SESSION_NONE) { // neu trang thai chua duoc bat 
 	session_start(); //if(session_status() !== PHP_SESSION_ACTIVE) session_start();
   }
-
-  
 use CT275\Labs\loai_hang_hoa;
 use CT275\Labs\hang_hoa;
-
+$hang_hoa = new hang_hoa($PDO);
 $loai_hang_hoa = new loai_hang_hoa($PDO);
 $loai_hang_hoas = $loai_hang_hoa->all();
-
 
 $errors = [];
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -21,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	}
 	$errors = $hang_hoa->getValidationErrors();
 }
-include '../partials/header.php';
+include '../admin/partials/header.php';
 ?>
 <main class="container">
 	<section class="nav--product row ">

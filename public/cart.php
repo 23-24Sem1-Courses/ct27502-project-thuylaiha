@@ -49,14 +49,14 @@
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
                       <button class="btn btn-link px-2" >
-                        <a href="<?=BASE_URL_PATH."themgiohang.php?tru=".$cart['id']?>"><i class="fas fa-minus"></i></a>
+                        <a href="<?=BASE_URL_PATH."ct27502-project-thuylaiha/public/themgiohang.php?tru=".$cart['id']?>"><i class="fas fa-minus"></i></a>
                       </button>
 
                       <input id="form1" min="0"  value="<?=$cart['so_luong']?>" type=""
                         class="form-control form-control-sm" />
 
                       <button class="btn btn-link px-2">
-                        <a href="<?=BASE_URL_PATH."themgiohang.php?cong=".$cart['id']?>"><i class="fas fa-plus"></i></a>
+                        <a href="<?=BASE_URL_PATH."ct27502-project-thuylaiha/public/themgiohang.php?cong=".$cart['id']?>"><i class="fas fa-plus"></i></a>
                       </button>
                     </div>
                     <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
@@ -64,7 +64,7 @@
                       <h6 class="mb-0">VNĐ</h6>
                     </div>
                     <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                      <a href="<?=BASE_URL_PATH."themgiohang.php?xoa=".$cart['id']?>" class="text-muted"><i class="fas fa-times"></i></a>
+                      <a href="<?=BASE_URL_PATH."ct27502-project-thuylaiha/public/themgiohang.php?xoa=".$cart['id']?>" class="text-muted"><i class="fas fa-times"></i></a>
                     </div>
                   </div>
                   <?php
