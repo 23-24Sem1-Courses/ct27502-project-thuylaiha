@@ -11,7 +11,7 @@
  
 ?>
 
-<section class="h-100 h-custom" style="background-color: #00c8ff;">
+<section class="h-100 h-custom"style="background-color: #add8e6; color: #000;">
   
   <div class="container py-5 h-100">
     <div class="text-left text-primary font-weight-bold col-2 pb-3">
@@ -89,32 +89,24 @@
                     <h5><?=$total ?>VNĐ</h5>
                   </div>
 
-                  <h5 class="text-uppercase mb-3">Phí Vận Chuyển</h5>
+                  <h5 class="text-uppercase mb-3">Phí vận chuyển</h5>
 
                   <div class="mb-4 pb-2">
                     <select class="select">
-                      <option value="1">Standard-Delivery-50.000VNĐ</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                      <option value="4">Four</option>
+                      <option value="1">Giao hàng nhanh-30.000đ</option>
+                      <option value="2">Giao hàng tiết kiệm-40.000đ</option>
+                      <option value="3">Giao hàng hỏa tốc-25.000đ</option>
+                      <option value="4">Giao hàng J&T-33.000đ</option>
                     </select>
                   </div>
 
-                  <h5 class="text-uppercase mb-3">Mã Khuyến Mãi</h5>
-
-                  <div class="mb-5">
-                    <div class="form-outline">
-                      <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Examplea2">Nhập mã khuyến mãi</label>
-                    </div>
-                  </div>
-
+                  
                   <hr class="my-4">
 
                   <div class="d-flex justify-content-between mb-5">
                     <h5 class="text-uppercase">Thanh Toán:</h5>
                     <h5><?php if($total > 0){
-                      echo $total+50000;
+                      echo $total+25000;
                     }else{
                       echo $total;
                     }
@@ -142,5 +134,7 @@
       $(this).closest("form").submit(); 
     });
   });
+ 
+        
 </script>
 

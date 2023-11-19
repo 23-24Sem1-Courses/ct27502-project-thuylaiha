@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	// Cập nhật dữ liệu không thành công
 	$errors = $hang_hoa->getValidationErrors();
 }
-include '../admin/partials/header.php';
+include '../admin/partials/header3.php';
 ?>
 <main class="container">
 	<section class="nav--product row ">
@@ -101,11 +101,15 @@ include '../admin/partials/header.php';
 				<label class="form-label display-7 font-weight-bold "  for="loai_hang_hoa">Loại sản phẩm</label>
 				<select name="id_loai" class="form-control">
 					<option value=" <?= $hang_hoa->id_loai ?>" selected> <?php  if ($hang_hoa->id_loai == 1) {
-                                       echo ("Laptop");
+                                       echo ("Giày của nữ");
                                    } if ($hang_hoa->id_loai == 2) {
-                                       echo ("SamSung");
-                                   } else if ($hang_hoa->id_loai == 3) {
-                                       echo ("Iphone");
+                                       echo ("Giày của nam");
+									} if ($hang_hoa->id_loai == 3) {
+										echo ("Giày trẻ em");
+									} if ($hang_hoa->id_loai == 4) {
+										echo ("Phụ kiện giày");
+                                   } else if ($hang_hoa->id_loai == 5) {
+                                       echo ("Bán chạy");
                                    } ?></option>
 					<?php foreach ($loai_hang_hoas as $loai_hang_hoa) : ?>
 						<?php if ($hang_hoa->id_loai != $loai_hang_hoa->id) : ?>
@@ -117,7 +121,7 @@ include '../admin/partials/header.php';
 			<div class="form-group">
 				<label class="form-label display-7 font-weight-bold "  for="so_luong_hang">Số lượng</label>
 
-				<input type="number" min="1" name="so_luong_hang" class="form-control is-invalid" maxlen="255" id="phone" placeholder="Nhập số lượng sản phẩm... " value="<?= htmlspecialchars($hang_hoa->so_luong_hang)?>" required>
+				<input type="number" min="1" name="so_luong_hang" class="form-control is-invalid" maxlen="255" id="shoe" placeholder="Nhập số lượng sản phẩm... " value="<?= htmlspecialchars($hang_hoa->so_luong_hang)?>" required>
 				<?php if (isset($errors['so_luong_hang'])) : ?>
 					<div class="invalid-feedback">
 						<strong><?= htmlspecialchars($errors['so_luong_hang']) ?></strong>
